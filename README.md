@@ -1,42 +1,12 @@
-# Buildbites
-# BuildBites 🔧🖥️
+# React + Vite
 
-**BuildBites** is a modern affiliate + review website built using **React**, **Vite**, **Tailwind CSS**, and **React Router**. It focuses on reviewing web hosting platforms and developer tools to help developers and tech enthusiasts make better buying decisions.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🔗 Live Demo
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-🌐 [View Live Website](https://buildbites.vercel.app)  
-📦 [Hosted on Vercel](https://vercel.com)
+## Expanding the ESLint configuration
 
----
-
-## 🚀 Features
-
-- ⚡ **Vite + React** for lightning-fast performance
-- 🎨 **Tailwind CSS** for sleek and responsive design
-- 🔁 **React Router DOM** for dynamic navigation
-- 🌟 Star ratings and affiliate buttons
-- 🧭 Internal pages for full reviews
-- 🔗 External affiliate links with tracking
-- 📱 Mobile responsive UI
-
----
-
-## 📂 Folder Structure
-
-```bash
-buildbites/
-├── public/
-├── src/
-│   ├── components/
-│   ├── pages/
-│   │   ├── Reviews.jsx
-│   │   ├── Hostinger.jsx
-│   │   └── DigitalOcean.jsx
-│   ├── App.jsx
-│   ├── main.jsx
-├── tailwind.config.js
-├── index.html
-└── package.json
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
